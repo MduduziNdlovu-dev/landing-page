@@ -1,4 +1,4 @@
-# Frontend Mentor - [Your Project Name] Solution
+# Frontend Mentor - Coming Soon landing Page Solution
 
 This is a solution to the [Frontend Mentor Challenge](https://www.frontendmentor.io/). Frontend Mentor challenges help developers improve their coding skills by building real-world projects.
 
