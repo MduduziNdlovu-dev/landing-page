@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - [Your Project Name] Solution
 
-## Getting Started
+This is a solution to the [Frontend Mentor Challenge](https://www.frontendmentor.io/). Frontend Mentor challenges help developers improve their coding skills by building real-world projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View an optimized layout across different screen sizes.
+- See interactive hover states.
+- Submit a form with validation to ensure correct email format.
+- Receive real-time error messages for invalid or empty inputs.
+
+### Screenshot
+
+![Project Screenshot](![alt text](image.png))
+
+_Replace this image with a screenshot of your project._
+
+### Links
+
+- Solution URL: [Solution](https://github.com/MduduziNdlovu-dev/landing-page)
+- Live Site URL: [Live Demo](https://landing-page-eight-omega-83.vercel.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5
+- CSS (Styled Components, TailwindCSS, or custom styling)
+- Flexbox & Grid
+- React.js & Next.js (if applicable)
+- Form validation (Yup, Zod, or vanilla JavaScript validation)
+- API integration (if applicable)
+
+### What I learned
+
+Throughout this project, I reinforced my understanding of:
+
+- Responsive design principles.
+- Form validation techniques using [validation library or custom logic].
+- Managing state effectively in React.
+- Best practices for accessibility and user experience.
+
+Example code snippet:
+
+```js
+const validateEmail = (email) => {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+};
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Continued development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Moving forward, I plan to:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Optimize performance by minimizing re-renders.
+- Implement additional form validation enhancements.
+- Explore more accessibility improvements.
 
-## Learn More
+### Useful resources
 
-To learn more about Next.js, take a look at the following resources:
+- [MDN Web Docs](https://developer.mozilla.org/) - Essential documentation for web development.
+- [CSS Tricks](https://css-tricks.com/) - A great resource for CSS techniques and best practices.
+- [React Docs](https://react.dev/) - Official React documentation for state management and hooks.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Website - []()
+- Frontend Mentor - []()
+- LinkedIn - []()
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A huge shoutout to the Frontend Mentor community and everyone who provided valuable feedback on this project. Special thanks to ChatGPT for assisting with troubleshooting and optimizing code solutions!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_If applicable, mention any mentors or inspirations that helped you complete this project._
+
